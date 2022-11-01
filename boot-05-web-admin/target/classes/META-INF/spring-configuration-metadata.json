@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.myservice",
+      "type": "xyz.mwszksnmdys.admin.actuator.endpoint.MyServiceEndpoint",
+      "sourceType": "xyz.mwszksnmdys.admin.actuator.endpoint.MyServiceEndpoint"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "xyz.mwszksnmdys.admin.config.DataSourceConfig",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.myservice.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "xyz.mwszksnmdys.admin.actuator.endpoint.MyServiceEndpoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.myservice.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the myservice endpoint.",
+      "sourceType": "xyz.mwszksnmdys.admin.actuator.endpoint.MyServiceEndpoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

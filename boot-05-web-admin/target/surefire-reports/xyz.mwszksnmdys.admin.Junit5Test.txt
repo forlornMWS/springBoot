@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: xyz.mwszksnmdys.admin.Junit5Test
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 0.048 s <<< FAILURE! - in xyz.mwszksnmdys.admin.Junit5Test
+testFail  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 测试失败
+	at xyz.mwszksnmdys.admin.Junit5Test.testFail(Junit5Test.java:64)
+
+testSimpleAssertion  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 两个对象不一样 ==> expected: <java.lang.Object@6fb22ae3> but was: <java.lang.Object@6bd92538>
+	at xyz.mwszksnmdys.admin.Junit5Test.testSimpleAssertion(Junit5Test.java:43)
+

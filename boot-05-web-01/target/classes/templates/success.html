@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+</head>
+<body>
+    <h1 th:text="${msg}">哈哈</h1>
+    <h2>
+        <a href="http://mwszksnmdys.xyz" th:href="${link}">百度一下</a>
+        <a href="http://mwszksnmdys.xyz" th:href="@{link}">百度两下</a>
+    </h2>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#spring:
+#  mvc:
+#    static-path-pattern: res/**
+spring:
+  web:
+    resources:
+      add-mappings: true # 禁用所有静态资源
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+#        开启参数方式的内容协商
+    contentnegotiation:
+      favor-parameter: true

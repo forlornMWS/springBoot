@@ -1,0 +1,9 @@
+xyz\mwszksnmdys\dockerboot\config\SwaggerConfig.class
+xyz\mwszksnmdys\dockerboot\config\RedisConfig.class
+xyz\mwszksnmdys\dockerboot\entity\UserDTO.class
+xyz\mwszksnmdys\dockerboot\service\UserService.class
+xyz\mwszksnmdys\dockerboot\controller\DockerController.class
+xyz\mwszksnmdys\dockerboot\controller\UserController.class
+xyz\mwszksnmdys\dockerboot\mapper\UserMapper.class
+xyz\mwszksnmdys\dockerboot\DockerBootApplication.class
+xyz\mwszksnmdys\dockerboot\entity\User.class

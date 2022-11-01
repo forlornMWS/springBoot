@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "mycar",
+      "type": "xyz.mwszksnmdys.bean.Car",
+      "sourceType": "xyz.mwszksnmdys.bean.Car"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "xyz.mwszksnmdys.bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.Integer",
+      "sourceType": "xyz.mwszksnmdys.bean.Car"
+    }
+  ],
+  "hints": []
+}
